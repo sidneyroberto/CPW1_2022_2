@@ -1,0 +1,43 @@
+#paragrafo1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#paragrafo2 {
+    color: green;
+}
+
+/* Classes identificam dois ou mais elementos */
+.para-direita {
+    text-align: right;
+}
+
+ul {
+    list-style-image: url(../img/ponto.png);
+    background-color: antiquewhite;
+}
+
+ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:first-child {
+    background-color: aquamarine;
+}
+
+ul li:last-child {
+    background-color: coral;
+}
+
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ol li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ol li:nth-child(odd) {
+    background-color: chartreuse;
+}
