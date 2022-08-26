@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'italic';
+    src: url(../fonts/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 #paragrafo1 {
     color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'bold';
 }
 
 #paragrafo2 {

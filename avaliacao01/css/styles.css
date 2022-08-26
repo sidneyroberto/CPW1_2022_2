@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "italic";
+    src: url(../fonts/PlayfairDisplay-Italic.ttf);
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-family: "bold";
+}
+
+h2 {
+    font-family: "bold";
+}
+
+#ingredientes {
+    color: lightblue;
+}
+
+ul {
+    list-style-type: square;
+    font-family: "italic";
+}
+
+#modo-preparo {
+    color: lightcoral;
+}
+
+ol {
+    list-style-type: lower-alpha;
+    font-family: "regular";
+}
+
+li {
+    color: white;
+}
+
