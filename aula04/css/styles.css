@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'slogan';
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    /*background-color: #8c14fc;*/
+    background: linear-gradient(to right, #8c14fc, #a537fd);
+    padding: 40px 0px 30px 0px;
+    text-align: center;
+}
+
+#header h1 {
+    color: white;
+    font-family: 'slogan';
+    font-size: 400%;
+    margin: 0;
+    text-shadow: 4px 4px  #333;
+}
+
+#container {
+    display: flex;
+}
+
+#menu {
+    width: 15%;
+    background-color: #663399;
+    padding: 20px;
+    color: white;
+}
+
+#menu span {
+    font-family: 'bold';
+    font-size: 130%;
+    text-shadow: 2px 2px #333;
+}
+
+#menu ul {
+    padding-left: 0;
+    list-style: none;
+    font-family: 'regular';
+    font-size: 120%;
+}
+
+#menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    color: #d5b8ff;
+    font-size: 105%;
+}
