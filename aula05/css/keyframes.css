@@ -1,0 +1,70 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slideRight {
+  from {
+    left: -1000px;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: -1000px;
+  }
+}
+
+@keyframes shake1 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  5% { transform: translate(-1px, -2px) rotate(-1deg); }
+  10% { transform: translate(-3px, 0px) rotate(1deg); }
+  15% { transform: translate(3px, 2px) rotate(0deg); }
+  20% { transform: translate(1px, -1px) rotate(1deg); }
+  25% { transform: translate(-1px, 2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 1px) rotate(0deg); }
+  35% { transform: translate(3px, 1px) rotate(-1deg); }
+  40% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes shake2 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  20% { transform: translate(1px, 1px) rotate(0deg); }
+  25% { transform: translate(-1px, -2px) rotate(-1deg); }
+  30% { transform: translate(-3px, 0px) rotate(1deg); }
+  45% { transform: translate(3px, 2px) rotate(0deg); }
+  50% { transform: translate(1px, -1px) rotate(1deg); }
+  55% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  65% { transform: translate(3px, 1px) rotate(-1deg); }
+  70% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes shake3 {
+  00% { transform: translate(0, 0) rotate(0deg); }
+  45% { transform: translate(1px, 1px) rotate(0deg); }
+  50% { transform: translate(1px, 1px) rotate(0deg); }
+  55% { transform: translate(-1px, -2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 0px) rotate(1deg); }
+  65% { transform: translate(3px, 2px) rotate(0deg); }
+  70% { transform: translate(1px, -1px) rotate(1deg); }
+  75% { transform: translate(-1px, 2px) rotate(-1deg); }
+  80% { transform: translate(-3px, 1px) rotate(0deg); }
+  95% { transform: translate(3px, 1px) rotate(-1deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}

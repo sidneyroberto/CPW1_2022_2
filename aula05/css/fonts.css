@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'bold';
+  src: url(../fonts/Cabin-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url(../fonts/Cabin-Regular.ttf);
+}

@@ -1,0 +1,167 @@
+:root {
+  --hero-image: url(../img/background.jpg);
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background: linear-gradient(to right, #111, #24252a);
+  padding: 20px;
+  column-gap: 10px;
+  align-items: center;
+}
+
+nav span {
+  color: white;
+  font-family: 'bold';
+  font-size: 150%;
+}
+
+nav a:first-of-type {
+  margin-left: auto;
+}
+
+nav a {
+  color: white;
+  font-family: 'regular';
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c5eff7;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--hero-image);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+}
+
+#hero-text {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50px;
+  transform: translate(0, -50%);
+}
+
+#hero-text h1 {
+  margin: 0;
+  font-family: 'bold';
+  font-size: 500%;
+}
+
+#hero-text p {
+  font-family: 'regular';
+  font-size: 200%;
+}
+
+.slogan {
+  padding: 20px 30px;
+  display: flex;
+}
+
+
+.slogan h1 {
+  font-family: 'bold';
+  font-size: 300%;
+}
+
+.slogan p {
+  font-family: 'regular';
+  font-size: 150%;
+}
+
+.slogan-left{
+  width: 70%;
+}
+
+.slogan-right {
+  text-align: center;
+  width: 30%;
+}
+
+.slogan:nth-child(even) {
+  flex-direction: row-reverse;
+  background: linear-gradient(to right, #f4ede4, #fff);
+}
+
+.slogan:nth-child(even) .slogan-left {
+  text-align: right;
+}
+
+.slogan img {
+  width: 50%;
+}
+
+#gear {
+  animation: rotation 5s infinite linear;
+}
+
+#chart {
+  position: relative;
+  left: -1000px;
+  animation: slideLeft 1s;
+  animation-timing-function: ease-out;
+  opacity: 0;
+  transition: opacity 2s, transform 1s;
+}
+
+.slogan:hover #chart {
+  animation: slideRight 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+#values {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+#values:hover * {
+  animation: none;
+}
+
+.value-card {
+  width: 20%;
+  margin: 0 20px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  animation: shake1 1s infinite linear;
+}
+
+.value-card:nth-child(2) {
+  animation: shake2 1s infinite linear;
+}
+
+.value-card:nth-child(3) {
+  animation: shake3 1s infinite linear;
+}
+
+
+.value-card img {
+  border-radius: 10px;
+  width: 80%;
+}
+
+.value-card h1 {
+  font-family: 'bold';
+}
+
+.value-card p {
+  font-family: 'regular';
+}
+
