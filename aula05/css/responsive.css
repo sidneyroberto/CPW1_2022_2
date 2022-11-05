@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+  #hero {
+    height: 200px;
+  }
+
+  #hero-text h1 {
+    font-size: 200%;
+  }
+
+  #hero-text p {
+    font-size: 100%;
+  }
+
+  .brand-message,
+  .brand-message:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .brand-message {
+    padding: 20px 20px;
+  }
+
+  .brand-message:hover #chart {
+    animation: none;
+  }
+
+  .brand-message-left,
+  .brand-message-right {
+    width: 100%;
+  }
+
+  .brand-message-left {
+    text-align: center;
+  }
+
+  #chart {
+    opacity: 1;
+    animation: none;
+    left: 0;
+  }
+
+  #values {
+    flex-direction: column;
+  }
+
+  .value-card:nth-child(1),
+  .value-card:nth-child(2),
+  .value-card:nth-child(3) {
+    animation: none;
+  }
+
+  .value-card {
+    margin: 20px 0;
+    width: 80%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  #copyright {
+    margin: 0 0 30px 0;
+  }
+
+  #about-title {
+    text-align: center;
+  }
+}
