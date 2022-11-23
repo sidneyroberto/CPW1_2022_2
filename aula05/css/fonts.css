@@ -1,18 +1,9 @@
 @font-face {
   font-family: 'bold';
-<<<<<<< HEAD
-  src: url(../fonts/Montserrat-Bold.ttf);
-=======
   src: url(../fonts/Cabin-Bold.ttf);
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 }
 
 @font-face {
   font-family: 'regular';
-<<<<<<< HEAD
-  src: url(../fonts/Montserrat-Regular.ttf);
-}
-=======
   src: url(../fonts/Cabin-Regular.ttf);
 }
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589

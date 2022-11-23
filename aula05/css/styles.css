@@ -35,15 +35,6 @@ nav a:hover {
 }
 
 #hero {
-<<<<<<< HEAD
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    var(--hero-image);
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10px;
-  position: relative;
-=======
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--hero-image);
   height: 500px;
   background-position: center;
@@ -51,36 +42,20 @@ nav a:hover {
   background-size: cover;
   position: relative;
   padding: 10px;
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 }
 
 #hero-text {
   position: absolute;
-<<<<<<< HEAD
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  width: 80%;
-  /*border: 5px solid white;*/
-  /*padding: 20px;*/
-=======
   color: white;
   top: 50%;
   left: 50px;
   transform: translate(0, -50%);
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 }
 
 #hero-text h1 {
   margin: 0;
   font-family: 'bold';
-<<<<<<< HEAD
-  font-size: 300%;
-=======
   font-size: 500%;
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 }
 
 #hero-text p {
@@ -88,37 +63,6 @@ nav a:hover {
   font-size: 200%;
 }
 
-<<<<<<< HEAD
-.brand-message {
-  display: flex;
-  padding: 20px 30px;
-}
-
-.brand-message:nth-child(even) {
-  background: linear-gradient(to right, #e3ba8f, #fff);
-  flex-direction: row-reverse;
-}
-
-.brand-message-left {
-  width: 70%;
-}
-
-.brand-message-left h1 {
-  font-family: 'bold';
-}
-
-.brand-message-left p {
-  font-family: 'regular';
-  font-size: 120%;
-}
-
-.brand-message-right {
-  width: 30%;
-  text-align: center;
-}
-
-.brand-message-right img {
-=======
 .slogan {
   padding: 20px 30px;
   display: flex;
@@ -154,34 +98,15 @@ nav a:hover {
 }
 
 .slogan img {
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
   width: 50%;
 }
 
 #gear {
-<<<<<<< HEAD
-  animation: rotate 5s infinite linear;
-=======
   animation: rotation 5s infinite linear;
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 }
 
 #chart {
   position: relative;
-<<<<<<< HEAD
-  left: -100%;
-  opacity: 0;
-  animation: slideToLeft 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-  transition: opacity 3s;
-}
-
-.brand-message:hover #chart {
-  animation: slideToRight 1s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-=======
   left: -1000px;
   animation: slideLeft 1s;
   animation-timing-function: ease-out;
@@ -193,27 +118,17 @@ nav a:hover {
   animation: slideRight 1s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
   opacity: 1;
 }
 
 #values {
   display: flex;
-<<<<<<< HEAD
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-}
-
-#values:hover .value-card {
-=======
   align-items: center;
   justify-content: center;
   padding: 30px;
 }
 
 #values:hover * {
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
   animation: none;
 }
 
@@ -223,16 +138,8 @@ nav a:hover {
   text-align: center;
   padding: 30px;
   border-radius: 50px;
-<<<<<<< HEAD
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
-  background-color: #fff;
-}
-
-.value-card:nth-child(1) {
-=======
   background: #ffffff;
   box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
   animation: shake1 1s infinite linear;
 }
 
@@ -244,10 +151,6 @@ nav a:hover {
   animation: shake3 1s infinite linear;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
 .value-card img {
   border-radius: 10px;
   width: 80%;
@@ -261,45 +164,3 @@ nav a:hover {
   font-family: 'regular';
 }
 
-<<<<<<< HEAD
-footer {
-  background: linear-gradient(to right, #111, #24252a);
-  margin-top: 30px;
-  padding: 30px 20px;
-  display: flex;
-  align-items: baseline;
-  color: white;
-}
-
-#copyright {
-  margin-right: 40px;
-}
-
-#copyright span {
-  font-family: 'bold';
-}
-
-#address {
-  font-family: 'regular';
-}
-
-#address h3 {
-  font-family: 'bold';
-}
-
-#content {
-  padding: 20px;
-}
-
-#about-title {
-  font-family: 'bold';
-}
-
-.about-paragraph {
-  font-family: 'regular';
-  text-indent: 30px;
-  text-align: justify;
-  /*line-height: 1.6;*/
-}
-=======
->>>>>>> d601c12a52faa2f0b69f5ba217ded799612fd589
